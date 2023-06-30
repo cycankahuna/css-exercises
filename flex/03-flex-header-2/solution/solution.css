@@ -19,7 +19,8 @@ body {
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
-  height:  48px;
+  height: 48px;
+  
 }
 
 .logo {
@@ -35,6 +36,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 4px;
 }
 
 a {
@@ -43,26 +45,27 @@ a {
   color: rebeccapurple;
 }
 
+/* SOLUTION */
+
 ul {
   list-style-type: none;
 }
 
-/* SOLUTION */
-
-.header {
+.header{
   display: flex;
   justify-content: space-between;
   padding: 8px;
 }
 
-ul {
+ul{
   display: flex;
   margin: 0;
   padding: 0;
   gap: 16px;
-}
+ } 
 
-.left, .right {
+
+ .left, .right {
   display: flex;
   align-items: center;
   gap: 16px;
